@@ -4,23 +4,28 @@ import { checkbox, img1, img10, img2, img3, img4, img5, img6, img7, img8, img9, 
 export const navlinks = [
     {
         id: "home",
-        link: "Home"
+        link: "Home",
+        active: ""
     },
     {
         id: "about",
-        link: "About"
+        link: "About",
+        active: "About"
     },
     {
         id: "explore",
-        link: "Explore"
+        link: "Explore",
+        active: "Explore",
     },
     {
         id: "pricing",
-        link: "Pricing"
+        link: "Pricing",
+        active: "Pricing",
     },
     {
         id: "contact",
-        link: "Contact"
+        link: "Contact",
+        active: "Contact",
     }
 ]
 

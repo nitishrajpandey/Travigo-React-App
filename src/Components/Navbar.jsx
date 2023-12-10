@@ -51,7 +51,7 @@ function Navbar() {
                 } cursor-pointer text-lg`}
               >
                 <NavLink
-                  to={nav.link}
+                  to={nav.active}
                   className={({ isActive }) =>
                     `${isActive ? "text-yellow-800" : "text-black"} `
                   }
@@ -84,7 +84,7 @@ function Navbar() {
                   key={nav.id}
                   className={`font-semibold  cursor-pointer text-lg`}
                 >
-                  <NavLink to={nav.link} className="text-black">
+                  <NavLink to={nav.active} className="text-black">
                     {nav.link}
                   </NavLink>
                 </li>

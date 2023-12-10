@@ -17,7 +17,7 @@ import Contact from "./Pages/Contact/Contact.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route path="Home" element={<Home />} />
+      <Route path="" element={<Home />} />
       <Route path="About" element={<About />} />
       <Route path="Explore" element={<Explore />} />
       <Route path="Pricing" element={<Price />} />
